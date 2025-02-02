@@ -1,4 +1,16 @@
 # init.lua
+
 My neovim configs, plugins.  
-It has lsp for python, javasript.  
-Telescope, treesitter, check `/after` for remaps.
+
+# LSP
+
+vtsls (for typescript, javascript), pyright (for python).  
+
+# Plugins
+
+nvim-telescope - file searching.  
+nvim-treesitter - syntax.  
+vim-surround - mainly html editing.  
+auto-pairs - auto brackets,...  
+
+Checkout the remaps
