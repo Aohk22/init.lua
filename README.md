@@ -11,6 +11,6 @@ vtsls (for typescript, javascript), pyright (for python).
 nvim-telescope - file searching.  
 nvim-treesitter - syntax.  
 vim-surround - mainly html editing.  
-auto-pairs - auto brackets,...  
+m4xshen/autoclose.nvim - auto brackets,...  
 
 Checkout the remaps
