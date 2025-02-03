@@ -2,11 +2,11 @@ return {
 	{
 		"comfysage/evergarden",
 		lazy = false,
-		priority = 1000, 
-        opts = {
-            transparent_background = true,
-            variant = 'medium',
-        },
+		priority = 1000,
+		opts = {
+			transparent_background = true,
+			variant = "medium",
+		},
 		config = function()
 			-- load colorscheme
 			vim.cmd([[colorscheme evergarden]])
@@ -14,19 +14,19 @@ return {
 	},
 
 	{
-		'nvim-telescope/telescope.nvim',
-		tag = '0.1.8',
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.8",
 		-- or, branch = '0.1.x',
-		dependencies = { 'nvim-lua/plenary.nvim' }
+		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 
 	{
 		"nvim-treesitter/nvim-treesitter",
-		build = ":TSUpdate"
+		build = ":TSUpdate",
 	},
 
-    {
-        "tpope/vim-surround",
-        "jiangmiao/auto-pairs"
-    }
+	{
+		"tpope/vim-surround",
+		"m4xshen/autoclose.nvim",
+	},
 }
