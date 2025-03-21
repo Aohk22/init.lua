@@ -25,5 +25,3 @@ null_ls.setup({
 
 -- Optional: Keybinding to format manually
 vim.api.nvim_set_keymap("n", "<leader>f", ":lua vim.lsp.buf.format()<CR>", { noremap = true, silent = true })
-
-vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
