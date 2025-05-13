@@ -50,6 +50,7 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 -- Remaps
+vim.keymap.set('n', '<leader><F5>', vim.cmd.UndotreeToggle)
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
 vim.keymap.set("n", "gl", "<cmd>lua vim.diagnostic.open_float()<cr>")
 vim.keymap.set("n", "[d", "<cmd>lua vim.diagnostic.goto_prev()<cr>")
