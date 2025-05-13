@@ -1,18 +1,15 @@
 # init.lua
-***BROKEN
 
 My neovim configs, plugins.  
 
-# LSP
+# How to use
 
-vtsls (for typescript, javascript), pyright (for python).  
-I followed this tutorial for installing the lsp: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v2.x/doc/md/lsp.md#you-might-not-need-lsp-zero.
+Put init.lua (file) and lua (folder) into `<username>\AppData\Local\nvim\init.lua` on Windows (or on Linux `~/.config/nvim`).
+Install the required lsp servers: pyright, harper-ls, lua-langage-server.
 
 # Plugins
 
-nvim-telescope - file searching.  
+nvim-telescope - file searching (`<SPACE>pf`).  
 nvim-treesitter - syntax.  
 vim-surround - mainly html editing.  
 m4xshen/autoclose.nvim - auto brackets,...  
-
-Checkout the remaps
