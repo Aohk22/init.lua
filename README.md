@@ -9,7 +9,8 @@ Install the required lsp servers: pyright, harper-ls, lua-langage-server.
 
 # Plugins
 
-nvim-telescope - file searching (`<SPACE>pf`).  
+undotree - undo (`<SPACE><F5>`).  
+nvim-telescope - file searching (`<SPACE>pf`, `<SPACE>ps`).  
 nvim-treesitter - syntax.  
-vim-surround - mainly html editing.  
+vim-surround - mainly HTML editing.  
 m4xshen/autoclose.nvim - auto brackets,...  
